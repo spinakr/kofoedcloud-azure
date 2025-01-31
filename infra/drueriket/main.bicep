@@ -38,7 +38,7 @@ resource siteConfig 'Microsoft.Web/sites/config@2023-01-01' = {
   parent: appService
   name: 'web'
   properties: {
-    netFrameworkVersion: 'v8.0'
+    netFrameworkVersion: 'v9.0'
     numberOfWorkers: 1
     webSocketsEnabled: true
     alwaysOn: false

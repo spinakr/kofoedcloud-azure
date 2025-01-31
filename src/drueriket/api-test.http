@@ -1,0 +1,6 @@
+### Get all items
+GET https://apis.vinmonopolet.no/products/v0/details-normal
+Headers: 
+Ocp-Apim-Subscription-Key: 
+
+
